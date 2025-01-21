@@ -19,6 +19,6 @@ export default function Button({
         variant === "ghost" && "border-border-primary",
         props.className
       )}
-    ></button>
+    >{children}</button>
   );
 }
