@@ -5,7 +5,7 @@ export default function Header() {
     <div className="flex justify-between">
       <div className="flex items-center gap-4">
         <img src="/logo.svg" alt="ProjectInBio Logo" />
-        <h3 className="text-white text-2xl font-bold">ProjectInBio</h3>
+        <h3 className="text-white text-2xl font-bold">Project In Bio</h3>
       </div>
       <div className="flex items-center gap-4">
         <Button>Minha Página</Button>

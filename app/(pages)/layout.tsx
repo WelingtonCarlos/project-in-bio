@@ -1,3 +1,4 @@
+import Header from "../components/common/header";
 import "./globals.css";
 import { Red_Hat_Display } from "next/font/google";
 
@@ -14,8 +15,9 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${redHatDisplay.className} bg-background-primary text-content-body antialiased`}
+        className={`${redHatDisplay.className} px-12 xl:p-0 max-w-7xl mx-auto bg-background-primary text-content-body antialiased`}
       >
+        <Header />
         {children}
       </body>
     </html>
