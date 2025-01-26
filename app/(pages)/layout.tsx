@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${redHatDisplay.className} px-12 xl:p-0 max-w-7xl mx-auto bg-background-primary text-content-body antialiased`}
+        className={`${redHatDisplay.className} py-8 px-12 max-w-7xl mx-auto bg-background-primary text-content-body antialiased`}
       >
         <Header />
         {children}

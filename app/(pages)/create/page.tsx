@@ -4,8 +4,7 @@ import TextInput from "@/app/components/ui/text-input";
 import { Rocket } from "lucide-react";
 export default function CreatePage() {
   return (
-    <div>
-      <div className="flex flex-col gap-10 items-center justify-center max-w-7xl mx-auto">
+      <div className="flex flex-col gap-10 items-center justify-center max-w-7xl h-screen mx-auto">
         <div className="flex items-center gap-4">
           <h1 className="text-4xl font-bold text-white">Escolha seu link</h1>
           <Rocket className="size-10" />
@@ -19,6 +18,5 @@ export default function CreatePage() {
           <span className="text-accent-pink">Erro de exemplo</span>
         </div>
       </div>
-    </div>
   );
 }
